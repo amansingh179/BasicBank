@@ -1,0 +1,60 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+/* The navbar of home page */
+/* start */
+.navbar{
+background-color:#9e9e9e;
+
+
+}
+.navbar ul{
+  overflow:auto;
+}
+.navbar li{
+  float:left;
+  list-style:none;
+  margin:17px 89px;
+ 
+ 
+}
+.navbar li a{
+  padding:3px 18px;
+  text-decoration:none;
+  color:white;
+}
+.navbar li a:hover{
+ color:black;
+}
+
+/* End*/
+
+
+
+
+
+/* to the heading of the transaction history table */
+/* start */
+.thcontent{
+  font-size:30px;
+  text-align:center;
+}
+/* end */
+
+
+/* the table of history */
+/* start */
+table,th,td{
+  width:800px;
+  margin:auto;
+  font-size:16px;
+  padding:20px;
+  text-align:center;
+  border:2px solid black;
+  border-collapse: collapse;
+}
+/* end */
+

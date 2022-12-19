@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* The navbar of home page */
+/* start */
+.navbar{
+  background-color:#9e9e9e;
+  
+  
+}
+.navbar ul{
+    overflow:auto;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:17px 89px;
+   
+   
+}
+.navbar li a{
+    padding:3px 18px;
+    text-decoration:none;
+    color:white;
+}
+.navbar li a:hover{
+   color:black;
+}
+
+/* End*/
+
+/* 
+middle content that is the heading and the middle option page */
+
+/* start */
+.middlecontent{
+   
+    height:50vh;
+    width:100%;
+}
+
+.midheader{
+    /* background-color:antiquewhite; */
+    height:100px;
+    text-align:center;
+    padding-top:23px;
+    font-size:23px;
+   
+}
+.imgmid{
+  
+   
+    /* background-color:rgb(194, 194, 247); */
+    height:100vh;
+}
+.imgmid img{
+   
+    display:block;
+    padding-top:23px;
+      padding-left:23px;
+      height:450px;
+      width:771px;
+}
+.imgbtn{
+ 
+    margin: -377px 177px;
+   
+    float:right;
+}
+.imgbtn button{
+    overflow:none;
+    cursor:pointer;
+    margin:23px 34px;
+    padding:9px 56px;
+   border-radius:25px;
+    width:290px;
+    height:59px;
+    font-size:18px;
+    border:2px solid black;
+    
+}
+.imgbtn button a{
+    text-decoration: none;
+    color:black;
+}
+
+/* end */
